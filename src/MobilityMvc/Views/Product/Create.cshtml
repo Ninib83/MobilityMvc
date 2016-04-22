@@ -1,0 +1,23 @@
+﻿@model CreateProductViewModel
+
+<form asp-action="Create" asp-controller="Product">
+    <input type="hidden" asp-for="Id" />
+
+    <label asp-for="ProductName"></label><br />
+    <input asp-for="ProductName" /><br />
+    <span asp-validation-for="ProductName"></span><br />
+    <br />
+    <label asp-for="Price"></label><br />
+    <input asp-for="Price" /><br />
+    <span asp-validation-for="Price"></span><br />
+    <br />
+    <label asp-for="Image"></label><br />
+    <input asp-for="Image" /><br />
+    <span asp-validation-for="Image"></span><br />
+    <br />
+    <label asp-for="Description"></label><br />
+    <textarea asp-for="Description"></textarea><br />
+    <span asp-validation-for="Description"></span><br />
+
+    <input type="submit" value="Lägg till produkt" />
+</form>

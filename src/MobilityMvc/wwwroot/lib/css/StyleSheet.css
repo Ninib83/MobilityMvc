@@ -1,0 +1,141 @@
+﻿.a, a:link{
+    text-decoration:none;
+}
+#slide{
+    background-repeat: no-repeat;
+    width:200px;
+    height:200px;
+    margin-top:2px;
+    float:left
+}
+.carousel-indicators{
+
+}
+.carousel-inner>.item>img{
+    margin:auto;
+    height:30%;
+    width:30%;
+}
+.col-md-5{
+    height:200px;
+    width:200px;
+    align-items:center;
+}
+.col-md-7{
+    text-align:center;
+}
+.background {
+    background-image: url('../../img/banner.jpg');
+    background-repeat: no-repeat;
+    padding: 5px 5px 5px 0;
+}
+.page-header{
+    height:200px;
+    text-align:right;
+    margin-right:60px;
+
+}
+#Logo_1{
+     font-family:Broadway;
+     font-size:40pt;
+     color:gold;
+     margin-top:55px;
+     text-shadow:5px 5px 10px black;
+     margin-right: 20%;
+}
+#Logotext_1{
+    color:gold;
+    margin-top:-20px;
+    font-size:12pt;
+    font-family:monospace;
+    text-shadow:5px 5px 10px black;
+    margin-right: 21%;
+}
+.navbar navbar-default{
+    margin-top:20px;
+}
+.container-fluid{
+    background-color:gold;
+}
+.navbar-default .navbar-brand{
+    color:black;
+    font-family:monospace;
+    margin-top:10px;
+}
+.navbar-default .navbar-nav>li>a{
+    color:black;
+    font-family:monospace;
+    margin-top:10px;
+}
+.field-validation-error{
+    color:red;
+    font-size:13px;
+    text-align:center;
+}
+.login{
+    text-align:center;
+}
+.registration{
+    text-align:center;
+}
+
+/*----------------Footer------------------*/
+
+#Footer{
+    float:left;
+    background-color: #000000;
+    width: 100%;
+    height: 200px;
+    border-radius:0 0 10px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#FooterBox1{
+    background-color: transparent;
+    width: 50%;
+    height: 200px;
+    float: left;
+    text-align: center;
+}
+
+#BoxTextHead1{
+    color: #ffffff;
+    font-size: 1.55em;
+    margin-bottom: 23px;
+}
+
+#BoxText1{
+    margin-top: 0;
+    color: #ffffff;
+    font-size: 1em;
+    margin-bottom: 23px;
+}
+
+#Line{
+    width: 1px;
+    height: 200px;
+    background-color: white;
+    float: left;
+    margin-top: 0;
+}
+
+#FooterBox2{
+    background-color: transparent;
+    height: 200px;
+    text-align: center;
+}
+
+#BoxTextHead2{ 
+    margin-top: 0;
+    color: #ffffff;
+    font-size: 1.55em;
+}
+
+#BoxText2{
+    margin-top: 0;
+    color: #ffffff;
+    font-size: 1em;
+    margin-bottom: 23px;
+}
+
+/*----------------Footer------------------*/

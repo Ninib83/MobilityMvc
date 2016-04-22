@@ -1,0 +1,28 @@
+﻿@model List<ListProductViewModel>
+
+<h1>Datorer</h1>
+
+
+@if (TempData["Message"] != null)
+{
+    <p>@TempData["Message"]</p>
+}
+
+<table>
+    <tr>
+        <th>Fabrikat</th>
+        <th>Pris</th>
+        <th>dyr</th>
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ProductName</td>
+            <td>@item.Price</td>
+            <td>@item.Description</td>
+            <td>@item.Image</td>
+        </tr>
+    }
+</table>
